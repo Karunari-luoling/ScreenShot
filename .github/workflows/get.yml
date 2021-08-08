@@ -14,7 +14,8 @@ jobs:
     - name: Download
       run: |
         curl https://image.thum.io/get/width/1024/crop/768/https://www.lollipopstudio.cn/ -o www.lollipopstudio.cn.jpg
-        curl https://image.thum.io/get/width/1024/crop/768/https://https://blogroot.vercel.app/ -o blogroot.vercel.app.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blogroot.vercel.app/ -o blogroot.vercel.app.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.booling.cn -o blog.booling.cn.jpg
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
